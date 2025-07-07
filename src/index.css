@@ -1,0 +1,28 @@
+/* ✅ Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+
+/* ✅ Base Styling */
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background-color: #f9fafb; /* Tailwind gray-50 */
+  color: #1f2937; /* Tailwind gray-800 */
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ✅ Optional anchor styling if needed */
+a {
+  text-decoration: none;
+  color: #3b82f6; /* Tailwind blue-500 */
+}
+a:hover {
+  text-decoration: underline;
+}
+
+/* ✅ Remove default button styling (Tailwind handles it) */
+button {
+  font-family: 'Inter', sans-serif;
+  outline: none;
+}
